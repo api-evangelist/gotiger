@@ -1,22 +1,58 @@
 aid: gotiger
 name: Gotiger
-description: Gotiger is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  GoTiger is a Berlin-based food company that operates multiple delivery-first food brands out of
+  modern ghost kitchens, including Bok Bok Chicken, GoDumpling and Kyoo Chicken. Founded in 2022,
+  the company began as GoTiger Asia Grocery Delivery, a same-day app-based service delivering Japanese,
+  Korean and Chinese groceries and everyday essentials across Berlin and Potsdam on a Shopify Plus
+  backend, before pivoting to a portfolio of virtual restaurant brands. GoTiger is a consumer product
+  company backed by Speedinvest, Adjacent, Nucleus Capital and Shio Capital; it does not publish a
+  public developer API, developer portal, or machine-readable API artifacts at this time.
 url: https://raw.githubusercontent.com/api-evangelist/gotiger/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - speedinvest
+- adjacent
+- nucleus-capital
+- shio-capital
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Food and Beverage
+- Delivery
+- Ghost Kitchens
+- Grocery
+- E-Commerce
+- Consumer
+- Berlin
+image: https://gotigerapp.com/favicon.png
 apis: []
+common:
+- type: Website
+  url: https://gotigerapp.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
